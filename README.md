@@ -31,7 +31,6 @@ qemu-img convert -f qcow2 -O vmdk -o subformat=streamOptimized ubuntu.qcow2 ubun
 ```bash
 qemu-img convert -f qcow2 -O vmdk -o adapter_type=lsilogic,subformat=streamOptimized,compat6 ubuntu.qcow2 ubuntu.vmdk
 ```
-* https://linux.die.net/man/1/qemu-img
 
 ### Convert qcow2 to Microsoft Hyper-V new vhdx format
 
@@ -40,8 +39,6 @@ qemu-img convert -f qcow2 -O vhdx -o subformat=dynamic ubuntu.qcow2 ubuntu.vhdx
 ```
 
 ### For Azure (VHD images on Azure must have a virtual size aligned to 1 MB.)
-
-* https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-generic#resizing-vhds
 
 ```bash
 # requires qemu 2.6+
