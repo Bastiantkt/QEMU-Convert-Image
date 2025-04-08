@@ -14,6 +14,10 @@
 qemu-img convert image.qcow2 image.img
 ```
 
+```bash
+qemu-img convert image.img image.qcow2
+```
+
 ### Convert for VirtualBox (.vdi)
 
 ```bash
