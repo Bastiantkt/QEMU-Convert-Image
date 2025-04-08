@@ -8,7 +8,7 @@
 
 ## Example commands Convert qcow2 to other formats
 
-### Universal Conversion (.img for example)
+### Universal Conversion (.img / .iso for example)
 
 ```bash
 qemu-img convert image.qcow2 image.img
@@ -16,6 +16,10 @@ qemu-img convert image.qcow2 image.img
 
 ```bash
 qemu-img convert image.img image.qcow2
+```
+
+```bash
+qemu-img convert image.iso image.qcow2
 ```
 
 ### Convert for VirtualBox (.vdi)
